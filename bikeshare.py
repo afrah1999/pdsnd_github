@@ -224,7 +224,7 @@ def user_stats(df,city):
         print('counts of gender: \n',Gender_counts)
 
 
-    # Display earliest, most recent, and most common year of birth
+    # Display earliest, most recent, and most common year of birth.
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
