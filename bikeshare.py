@@ -145,9 +145,6 @@ def time_stats(df,month, day):
 
         print('Most Frequent day:', popular_day)
 
-
-        # display the most common start hour
-
         # extract hour from the Start Time column to create an hour column
         df['hour'] =df['Start Time'].dt.hour
         # find the most common hour (from 0 to 23)
